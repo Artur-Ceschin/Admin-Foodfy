@@ -1,0 +1,68 @@
+{% extends "layout.njk"%}
+
+{% block header %}
+    <header class="container-header">
+        <div class="img">
+            <a href="/"><img src="./assets/logo.png" alt="Logo"></a>
+        </div>
+        <a href="./about">Sobre</a>
+        <a href="./recipies" class="selected">Receitas</a>
+    </header>
+{% endblock %}
+
+{% block content%}
+
+
+
+        <div class="container-center">
+            <div class="image">
+                <img src="{{item.image}}" alt="imagem de {{item.title}}">
+            </div>
+            <h1>Triplo bacon burguer</h1>
+            <p>Por Jorge Relato</p>
+        </div>
+        <br><br><br>
+
+        <div class="container-content">
+            <h3>Ingredientes</h3>
+            <span class="btn">esconder</span>
+            <ul class="content0">
+                <li>
+                    3 kg de carne moída (escolha uma carne magra e macia);</li>
+                <li>
+                    300 g de bacon moído;</li>
+                <li>
+                    1 ovo;</li>
+                <li>
+                    3 colheres (sopa) de tempero caseiro: feito com alho, sal, cebola, pimenta e cheiro verde processados no liquidificador;</li>
+                <li>
+                    3 kg de carne moída (escolha uma carne magra e macia);</li>
+                <li>
+                    3 kg de carne moída (escolha uma carne magra e macia);</li>
+                <li>
+                    30 ml de água gelada;</li>
+            </ul>
+        </div>
+
+        <div class="container-content">
+            <h3>Modo de preparo</h3>
+            <span class="btn">esconder</span>
+            <div class="content1">Teste</div>
+        </div>
+
+        <div class="container-content">
+            <h3>Informações adicionais</h3>
+            <span class="btn">esconder</span>
+            <div class="content2">
+                <p>
+                    Preaqueça a chapa, frigideira ou grelha por 10 minutos antes de levar os hambúrgueres. Adicione um pouquinho de óleo ou manteiga e não amasse os hambúrgueres!
+                </p>
+                <br><br>
+                <p>
+                    Você sabia que a receita que precede o hambúrguer surgiu no século XIII, na Europa? A ideia de moer a carne chegou em Hamburgo no século XVII, onde um açogueiro resolveu também temperá-la. Assim, a receita foi disseminada nos Estados Unidos por alemães da região. Lá surgiu a ideia de colocar o hambúrguer no meio do pão e adicionar outros ingredientes, como queijom tomates e alface.
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
+{% endblock %}

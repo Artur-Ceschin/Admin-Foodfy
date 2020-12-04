@@ -1,0 +1,27 @@
+{
+  "name": "Inciando-no-Back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artur-Ceschin/Inciando-no-Back-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Artur-Ceschin/Inciando-no-Back-end/issues"
+  },
+  "homepage": "https://github.com/Artur-Ceschin/Inciando-no-Back-end#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
