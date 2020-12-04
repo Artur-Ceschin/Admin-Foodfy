@@ -15,16 +15,21 @@ nunjucks.configure('views', {
 server.get('/', function (req, res) {
     return res.render('index', {items : content})
 })
+
 server.get('/about', function (req, res) {
     return res.render('about')
 })
+
 server.get('/recipies', function (req, res) {
     return res.render('recipies', {items : content})
 })
-server.get('/recipie-content', function (req, res) {
-    return res.render('recipie-content', {items : content})
+
+server.get('/recipie-content/:index', function (req, res) {
+    const recipeIndex = req.params.index;
+    return res.render('recipie-content', {recipie : content[recipeIndex]})
 })
 
+
 server.listen(5000, ()=> {
-    console.log("Server is running on port ")
+    console.log("Server is running")
 })
