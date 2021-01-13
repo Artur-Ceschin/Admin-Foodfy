@@ -24,8 +24,8 @@ server.get('/recipies', function (req, res) {
     return res.render('recipies', {items : content})
 })
 
-server.get('/recipie-content/:index', function (req, res) {
-    const recipeIndex = req.params.index;
+server.get('/recipie-content/:id', function (req, res) {
+    const recipeIndex = req.params.id;
     return res.render('recipie-content', {recipie : content[recipeIndex]})
 })
 
