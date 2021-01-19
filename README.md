@@ -2,14 +2,13 @@
     <img src="public/assets/logo.png">
 </h1>
 
-<h1 align="center">
-    <img src="public/assets/github/Foodfy.gif">
-</h1>
-
 
 ## 🔖 About
 
-This project is the second challenge from the bootcamp Launchbase from Rocketseat.
+This project is the third challenge from the bootcamp Launchbase from Rocketseat.
+
+## **Challenge**
+https://github.com/Rocketseat/bootcamp-launchbase-desafios-04/blob/master/desafios/04-admin-foodfy.md
 
 ## 🚀 Technologies used
 
@@ -21,6 +20,16 @@ The project was developed using the following technologies
 - [Nodejs](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/)
 - [NPM](https://www.npmjs.com/)
+
+## Installers
+If you want to use this project run the following commands:
+```
+# Install 
+$ npm install
+
+# Run Admin-Foodfy
+$ npm start
+```
 
 
 
